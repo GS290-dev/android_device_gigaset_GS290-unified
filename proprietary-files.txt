@@ -117,7 +117,6 @@ vendor/lib/libaudiocustparam_vendor.so
 vendor/lib/libaudiodcrflt_vendor.so
 vendor/lib/libaudiofmtconv.so
 vendor/lib/libaudioloudc.so
-vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
@@ -128,7 +127,6 @@ vendor/lib64/libaudiocustparam_vendor.so
 vendor/lib64/libaudiodcrflt_vendor.so
 vendor/lib64/libaudiofmtconv.so
 vendor/lib64/libaudioloudc.so
-vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
 
 # Audio-Hardware
@@ -159,12 +157,6 @@ vendor/lib/hw/audio.usb.mt6763.so
 vendor/lib64/hw/audio.primary.mt6763.so
 vendor/lib64/hw/audio.r_submix.mt6763.so
 vendor/lib64/hw/audio.usb.mt6763.so
-vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
-vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
-vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
-vendor/lib64/vendor.mediatek.hardware.audio@5.1.so
-vendor/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so
-vendor/lib/vendor.mediatek.hardware.audio@5.1.so
 vendor/bin/audiocmdservice_atci
 vendor/etc/aurisys_param/Speech_AudioParam.xml
 vendor/etc/init/audiocmdservice_atci.rc

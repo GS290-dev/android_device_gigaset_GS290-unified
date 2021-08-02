@@ -18,7 +18,7 @@
 -include device/gigaset/mt6763-common/BoardConfigCommon.mk
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE += GS290,yggdrasil
+TARGET_OTA_ASSERT_DEVICE := GS290,yggdrasil,k63v2_64_bsp
 
 # Display
 TARGET_SCREEN_DENSITY := 420

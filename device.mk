@@ -17,6 +17,9 @@
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/gigaset/GS290-unified/GS290-unified-vendor.mk)
 
+# Properties
+-include $(LOCAL_PATH)/vendor_prop.mk
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080

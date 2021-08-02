@@ -1,5 +1,9 @@
 [
  {
+   "repository": "android_device_gigaset_mt6763-common",
+   "target_path": "device/gigaset/mt6763-common"
+ },
+ {
    "repository": "android_kernel_gigaset_mt6763",
    "target_path": "kernel/gigaset/mt6763"
  }

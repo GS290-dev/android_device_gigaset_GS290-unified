@@ -28,8 +28,5 @@ TARGET_SCREEN_WIDTH := 1080
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # Inherit from gigaset mt6763-common
 $(call inherit-product, device/gigaset/mt6763-common/common.mk)
